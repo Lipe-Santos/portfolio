@@ -577,11 +577,11 @@ header.fixed .container {
 }
 
 .prev {
-    right: 100%;
+    right: 90%;
 }
 
 .next {
-   left: 100%;
+   left: 90%;
 }
 
 .no-js .info {
