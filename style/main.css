@@ -662,7 +662,7 @@ header.fixed .container {
 }
 
 .projeto:hover, .projeto:active {
-    transform: scale(1.3)  rotate(12deg);
+    transform: scale(1.1)  rotate(12deg);
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
@@ -810,6 +810,11 @@ header.fixed .container {
    .projetos__container .projeto + .projeto{
         margin: 0;
    }
+
+   .projeto:hover, .projeto:active {
+        transform: scale(1.3)  rotate(12deg);
+    }
+
     .footer .container {
         display: flex;
         justify-content: space-between;
