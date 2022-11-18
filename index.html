@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Santos">
+    <meta name="description" content="Olá, o meu nome é Daniel Santos, e estou à procura de um lugar onde possa desenvolver as minhas capacidades">
+    <meta name="keywords" content="HTML, CSS, Javascript, Front-end, desenvolvedor">
+    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sahitya:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style/Glyphter.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body class="no-js">
+
+   <header class="main-header">
+        <div class="container">
+            <a href="index.html"><img src="images/logo.svg" alt="logótipo" class="logo"></a>
+            
+            <button class="main-header__btnMenu">Menu</button>
+
+            <ul class="main-header__menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skills">Habilitações</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li class="temas-mobile">
+                    <span class="temas-mobile__item">Tema</span>
+                    <ul class="temas-mobile__lista">
+                        <li class="light-mode">Light Mode</li>
+                        <li class="dark-mode">Dark Mode</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="portfolio-tema">
+                <span class="portfolio-tema__span" tabindex="1"></span>
+            </div>
+        </div>
+   </header>
+
+   <section id="home" class="home">
+        <div class="container">
+            <div class="home__article">
+                <h1 class="main-title">Daniel Santos</h1>
+                <h2>Desenvolvedor Front-end</h2>
+                <a href="www.linkedin.com/in/lipeSantos">Linkedin</a>
+                <a href="#">GitHub</a>
+                <figure class="animation-loading">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </figure>
+            </div>
+
+            <img src="images/logo_lightMode.svg" alt="" class="home__logo">
+        </div>
+   </section>
+
+   <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre__img">
+                <img src="images/foto.jpeg" alt="Minha foto">
+            </div>
+
+            <div class="sobre-content">
+                <h2 class="main-title">Sobre Mim...</h2>
+                <p>
+                    Olá, sou o Daniel Santos, tenho 18 anos, e vivo atualmente em Lisboa, mais precisamente no concelho de Odivelas. Terminei recentemente o secundário, e desde então dediquei-me a dominar ferramentas Front-end, bem como conceitos de web design por conta própria, ao frequentar vários cursos, com o objetivo de me tornar um desenvolvedor de fullstack.
+                </p>
+
+                <a href="www.linkedin.com/in/lipeSantos">Linkedin</a>
+                <a href="#">CV</a>
+            </div>
+        </div>
+
+        <figure class="animation-loading">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </figure>
+   </section>
+
+   <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="main-title">Habilitações</h2>
+            
+            <div class="skils__content">
+                <div class="slideshow">
+                    <div class="slideshow__grid">
+                        <div class="slideshow__item">
+                            <button><img src="images/html.png" alt=""></button>
+                            <p><abbr title="Hyper Text Markup Language">HTML</abbr></p>
+                        </div>
+                        <div class="slideshow__item">
+                            <button><img src="images/css.png" alt=""></button>
+                            <p><abbr title="Cascading Style Sheets">CSS</abbr></p>
+                        </div>
+                        <div class="slideshow__item">
+                            <button><img src="images/js.png" alt=""></button>
+                            <p>Javascript</p>
+                        </div>
+                        <div class="slideshow__item">
+                            <button><img src="images/figma.png" alt=""></button>
+                            <p>Figma</p>
+                        </div>
+                        <div class="slideshow__item">
+                            <button><img src="images/node.png" alt=""></button>
+                            <p>Node</p>
+                        </div>
+                        <div class="slideshow__item">
+                            <button><img src="images/ts.png" alt=""></button>
+                            <p>Typescript</p>
+                        </div>
+                        <div class="slideshow__item disabled">
+                            <button><img src="images/react.png" alt=""></button>
+                            <p>React</p>
+                        </div>
+                        <div class="slideshow__item disabled">
+                            <button><img src="images/python.png" alt=""></button>
+                            <p>Python</p>
+                        </div>
+                    </div>
+                    <span class="prev icon-esquerda"></span>
+                    <span class="next icon-direita"></span>
+                </div>
+                <div class="info">
+                    <h3>Clique para obter mais detalhes</h3>
+                    <p>...</p>
+                </div>
+            </div>
+        </div>
+
+        <figure class="animation-loading">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </figure>
+   </section>
+
+   <section id="projetos" class="projetos">
+        <div class="container">
+            <h2 class="main-title">Projetos</h2>
+
+            <div class="projetos__container">
+                <a href="#" class="projeto">
+                    <img src="images/cadeado.svg" alt="">
+                    <p>Nome</p>
+                </a>
+                <a href="#" class="projeto">
+                    <img src="images/cadeado.svg" alt="">
+                    <p>Nome</p>
+                </a>
+                <a href="#" class="projeto">
+                    <img src="images/cadeado.svg" alt="">
+                    <p>Nome</p>
+                </a>
+            </div>
+        </div>
+
+        <figure class="animation-loading">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </figure>
+   </section>
+
+   <footer class="footer">
+        <div class="container">
+            <address>
+                <p>Email: daniel04.lipe@gmail.com</p>
+                <p>Telefone: 968290544</p>
+            </address>
+
+            <p>
+                Feito e projetado por mim <br>
+                Obrigado pela atenção
+            </p>
+
+        </div>
+   </footer>
+
+   <script src="js/carrossel.js"></script>
+   <script src="js/list.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
