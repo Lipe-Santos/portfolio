@@ -705,6 +705,10 @@ header.fixed .container {
 
 @media screen and (min-width: 992px) {
 
+    .home .animation-loading {
+        text-align: left;
+    }
+
     .animation-loading {
         width: 6em;
         margin: 0;
