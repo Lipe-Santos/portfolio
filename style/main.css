@@ -631,8 +631,8 @@ header.fixed .container {
 
 .projetos__container .projeto {
     display: block;
-    width: 324px;
-    height: 324px;
+    width: 250px;
+    height: 250px;
     text-align: center;
     background-color: #fff;
     cursor: pointer;
@@ -807,6 +807,12 @@ header.fixed .container {
        gap: 84px 64px;
        margin: 0 auto;
    }
+
+   .projetos__container .projeto {
+        width: 324px;
+        height: 324px;  
+    }
+
 
    .projetos__container .projeto:first-child {
         margin: 0;
